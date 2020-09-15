@@ -5,7 +5,7 @@ const multer = require('multer');
 const sharp = require('sharp');
 const _ = require("lodash")
 const fs = require('fs')
-const serverUrl = 'http://localhost:5000';
+const serverUrl = 'https://image-mark-pro-server.herokuapp.com/api/imagePro';
 
 const { exec } = require("child_process");
 const { func } = require('joi');
